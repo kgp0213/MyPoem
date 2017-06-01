@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 
 import me.imid.swipebacklayout.lib.SwipeBackLayout;
+import me.imid.swipebacklayout.lib.app.SwipeBackActivity;
 
 
 /**
@@ -13,7 +14,7 @@ import me.imid.swipebacklayout.lib.SwipeBackLayout;
  * @Author stefory
  * @Date 2015/6/11 19:45.
  */
-public class TestActivity1 extends BaseActivity {
+public class TestActivity1 extends SwipeBackActivity {
 
     private Button mBtn;
     private SwipeBackLayout mSwipeBackLayout;

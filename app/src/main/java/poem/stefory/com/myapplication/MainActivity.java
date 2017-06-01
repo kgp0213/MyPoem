@@ -6,11 +6,12 @@ import android.view.View;
 import android.widget.Button;
 
 import me.imid.swipebacklayout.lib.SwipeBackLayout;
+import me.imid.swipebacklayout.lib.app.SwipeBackActivity;
 
 /**
  * @author stefory
  */
-public class MainActivity extends BaseActivity implements View.OnClickListener {
+public class MainActivity extends SwipeBackActivity implements View.OnClickListener {
 
     private SwipeBackLayout mSwipeBackLayout;
     private Button mBtn;
